@@ -1,7 +1,7 @@
 /*******************************************************************************
- * ROUNDED THEME FOR ROFI 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ * ELECTRO THEME FOR ROFI 
+ * User                 : Ordluks               
+ * Theme Repo           : https://github.com/Ordluks/electro-purple-rofi-theme
  *******************************************************************************/
 
 * {
@@ -16,15 +16,18 @@
 }
 
 window {
-    location:       center;
+    location:       south west;
     width:          480;
-    border-radius:  24px;
+    border:         1px;
+    border-radius:  8px;
+    border-color:   @bg4;
+    margin:         6px;
     
     background-color:   @bg0;
 }
 
 mainbox {
-    padding:    12px;
+    padding:    7px;
 }
 
 inputbar {
@@ -32,7 +35,7 @@ inputbar {
     border-color:       @bg3;
 
     border:         2px;
-    border-radius:  16px;
+    border-radius:  5px;
 
     padding:    8px 16px;
     spacing:    8px;
@@ -50,7 +53,7 @@ entry {
 
 message {
     margin:             12px 0 0;
-    border-radius:      16px;
+    border-radius:      8px;
     border-color:       @bg2;
     background-color:   @bg2;
 }
@@ -72,7 +75,7 @@ listview {
 element {
     padding:        8px 16px;
     spacing:        8px;
-    border-radius:  16px;
+    border-radius:  5px;
 }
 
 element normal active {
