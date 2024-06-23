@@ -5,7 +5,7 @@
  *******************************************************************************/
 
 * {
-    font:   "Roboto 12";
+    font:   "Roboto 11";
 
     background-color:   transparent;
     text-color:         @fg0;
@@ -16,10 +16,7 @@
 }
 
 window {
-    location:       south west;
-    width:          520;
-    x-offset: 6px;
-    y-offset: -50px;
+    width: 450;
 }
 
 mainbox {
@@ -67,7 +64,7 @@ listview {
     background-color:   transparent;
 
     margin:     12px 0 0;
-    lines:      8;
+    lines:      15;
     columns:    1;
 
     fixed-height: false;
