@@ -17,17 +17,18 @@
 
 window {
     location:       south west;
-    width:          480;
-    border:         1px;
-    border-radius:  8px;
-    border-color:   @bg4;
-    margin:         6px;
-    
-    background-color:   @bg0;
+    width:          520;
+    x-offset: 6px;
+    y-offset: -50px;
 }
 
 mainbox {
     padding:    7px;
+    border:         1px;
+    border-radius:  8px;
+    border-color:   @bg4;
+    
+    background-color:   @bg0;
 }
 
 inputbar {
